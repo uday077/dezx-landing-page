@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -8,24 +9,18 @@ body, html {
   height: 100%;
   width: 100%;
   font-family: Arial, sans-serif;
-}
-
-.bg {
-  background-image: url('cfd39b5b-c272-4912-94b7-e70c367817b1.png'); /* or whatever your file name is */
+  background: url('images/background.png') no-repeat center center fixed;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
 }
 
 .content {
-  position: relative;
-  z-index: 1;
+  height: 100vh;
+  width: 100%;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  top: 40%;
-  transform: translateY(-40%);
+  padding: 20px;
 }
