@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEZX - Designers Community</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        background: radial-gradient(circle at center, #6c2bb6 0%, #120024 80%);
+        font-family: "Russo One", sans-serif;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+      }
+      @font-face {
+        font-family: metropolis;
+        src: url(./Fonts/metropolis.medium.otf);
+        font-weight: normal;
+        font-style: normal;
+      }
+      .logo {
+        font-size: 100px;
+        font-weight: 900;
+        letter-spacing: 10px;
+        background: linear-gradient(145deg, #f5d5ff, #ad5fff, #7d3fe3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 0 0 30px rgba(184, 90, 255, 0.7),
+          0 0 60px rgba(184, 90, 255, 0.5);
+      }
+
+      .subtext {
+        font-size: 16px;
+        letter-spacing: 5px;
+        color: #cfcfcf;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        line-height: 20.61px;
+        letter-spacing: 10.8520002365px;
+        letter-spacing: 20px;
+        font-family: metropolis;
+        font-weight: bolder;
+      }
+
+      @font-face {
+        font-family: metropolis-bolder;
+        src: url(./Fonts/metropolis.medium.otf);
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      .headline {
+        font-size: 82px;
+        font-weight: bolder;
+        background: linear-gradient(to right, #ffffff, #e2bfff, #d897ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        line-height: 1.2;
+        font-family: metropolis-bolder;
+      }
+
+      .button {
+        margin-top: 40px;
+        height: 50px;
+        padding: 12px 30px;
+        font-size: 17px;
+        font-weight: bold;
+        color: #d897ff;
+        border: 2px solid #c97bff;
+        border-radius: 25px;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin-right: 30px;
+        color: #fff;
+        background-color: #a950ff;
+      }
+
+      .button:hover {
+        background: #c97bff;
+        color: #fff;
+        box-shadow: 0 0 15px #c97bff;
+      }
+
+      @media (max-width: 600px) {
+        .logo {
+          font-size: 60px;
+          letter-spacing: 5px;
+        }
+
+        .headline {
+          font-size: 28px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="./images/bannerlogo.ff56e10609b91a5cfb84a7efb43068a4.svg"
+      alt=""
+      class="logo"
+    />
+    <div class="subtext">FOR ALL DESIGNERS</div>
+    <div class="headline">
+      WORLD’S FIRST<br />
+      DESIGNERS COMMUNITY
+    </div>
+    <button class="button">Explore Dezx</button>
+  </body>
+</html>
